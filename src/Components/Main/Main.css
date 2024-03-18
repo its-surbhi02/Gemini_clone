@@ -174,13 +174,9 @@
     }
     .main .card{
         height: 150px;
-        /* margin-bottom: 10px; */
     }
     .main .cards{
-        margin-top: -5px;
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        
+        grid-template-columns: 1fr 1fr ;    
     }
-
 }
