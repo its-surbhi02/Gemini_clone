@@ -157,7 +157,6 @@
     .main-bottom input{
         flex: none;
         width: 150px;
-
     }
     .main-bottom img{
         width: 20px;
@@ -173,12 +172,19 @@
         margin: 5px 0px;
         font-size: 45px;
     }
-    .main .card{
-        height: 150px;
-    }
     .main .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;  
-        margin-bottom: 5px;  
+        max-height: 150px;
+        display: flex;
+        overflow-x: auto;
+    }
+    .main .cards::-webkit-scrollbar{
+        width: 0px;
+    }
+    .main .card{
+        min-width: 150px;
+        height: 150px;
+        /* line-height: 110px;   */
+        font-size: 20px;
+
     }
 }
