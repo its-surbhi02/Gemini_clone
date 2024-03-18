@@ -4,9 +4,9 @@ Google Gemini Clone<br>
 Overview
 <br>
 This project is a clone of Google Gemini, built using React and the Gemini API. Google Gemini is a powerful tool for browsing
-<br> and exploring information in an efficient manner. With this clone, I aimed to replicate the functionality of <br>Google Gemini while incorporating my own design and ensuring<br> responsiveness across various devices.
+and exploring information in an efficient manner. With this clone, I aimed to replicate the functionality of Google Gemini <br> while incorporating my own design and ensuring responsiveness across various devices.
 <br>
-Features
+### Features
 <br>
 Replicated Google Gemini Functionality: The clone offers similar browsing and exploration features as Google Gemini.
 <br>
