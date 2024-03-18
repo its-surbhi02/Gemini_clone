@@ -29,11 +29,11 @@ const Main = () => {
                     <p>Briefly summarize this concept: urban planning</p>
                     <img src={assets.bulb_icon} alt="" />
                 </div>
-                <div onClick={()=>onSent("Brainstorm team bonding activities for our work retreat")} className="card">
+                <div onClick={()=>onSent("Brainstorm team bonding activities for our work retreat")} className="card" id='last-div1'>
                     <p>Brainstorm team bonding activities for our work retreat</p>
                     <img src={assets.message_icon} alt="" />
                 </div>
-                <div onClick={()=>onSent("Tell me about React js and React native")} className="card">
+                <div onClick={()=>onSent("Tell me about React js and React native")} className="card" id='last-div2'>
                     <p>Tell me about React js and React native</p>
                     <img src={assets.code_icon} alt="" />
                 </div>
