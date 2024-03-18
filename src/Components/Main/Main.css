@@ -176,6 +176,7 @@
     }
     .main .card{
         height: 150px;
+        margin-bottom: 10px;
     }
 
 }
