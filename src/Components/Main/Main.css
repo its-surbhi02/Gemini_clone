@@ -161,6 +161,9 @@
     .main-bottom img{
         width: 20px;
     }
+    .main-bottom{
+        position: relative;
+    }
     .search-box{
         padding: 5px 10px;
         margin-top: 10px;
@@ -173,18 +176,12 @@
         font-size: 45px;
     }
     .main .cards{
-        max-height: 150px;
-        display: flex;
-        overflow-x: auto;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    .main .cards::-webkit-scrollbar{
-        width: 0px;
-    }
-    .main .card{
-        min-width: 150px;
-        height: 150px;
-        /* line-height: 110px;   */
-        font-size: 20px;
+    /* .main .card{
+        margin-bottom: 10px;
+    } */
 
-    }
 }
